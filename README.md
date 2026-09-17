@@ -4,7 +4,7 @@ Projet pédagogique et expérimental de *revenue management* : vendre un stock
 périssable en ajustant le prix dans le temps. Le problème est résolu deux fois — une
 fois exactement par programmation dynamique (vérité terrain), une fois par un agent
 Q-learning tabulaire qui n'observe jamais le modèle — pour valider empiriquement les
-garanties théoriques du Q-learning sur un MDP qui satisfait exactement ses hypothèses
+garanties théoriques du Q-learning surr un MDP qui satisfait exactement ses hypothèses
 (états et actions finis, stationnarité, récompenses bornées).
 
 Dépendances : NumPy, Matplotlib, tqdm (et pytest pour les tests). Aucun framework de
